@@ -21,7 +21,7 @@ namespace Xbox360ControllerPowerUtility
         private int[] m_powerHeldDurations;
 
         //How long in milliseconds the 'power' button must be held to turn off the controller.
-        private const int POWER_OFF_HELD_DURATION = 3000;
+        private const int POWER_OFF_HELD_DURATION = 2000;
 
         public Form1()
         {
@@ -94,7 +94,7 @@ namespace Xbox360ControllerPowerUtility
                     State state = m_controllers[i].GetState();
 
                     //If start is held.
-                    if (state.Gamepad.Buttons == GamepadButtonFlags.Start)
+                    if (state.Gamepad.Buttons == (GamepadButtonFlags.Start | GamepadButtonFlags.Back))
                     {
                         m_powerHeldDurations[i] += TmrCheckInput.Interval;
                         //If held long enough to power off controller.
