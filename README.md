@@ -5,8 +5,6 @@ Requires SharpDX.XInput from NuGet.
 
 Works with multiple controllers.
 
-This program is nothing spectactular, I just needed something that worked.
-
 Instructions: 
 - Compile as release.
 - Add to your Start Up if you like.
