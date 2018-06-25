@@ -13,4 +13,8 @@ Instructions:
 - Run program.
 - Hold start + back on your controller for 2 seconds to power it down.
 
-KEYWORDS: pc xbox controller windows xbox controller xbox controller power pc xbox controller power windows xbox controller power
+KEYWORDS: 
+pc xbox controller
+windows xbox controller
+power off xbox controller
+turn off xbox controller
