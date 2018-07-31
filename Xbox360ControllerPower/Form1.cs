@@ -33,6 +33,7 @@ namespace Xbox360ControllerPowerUtility
         {
         }
 
+
         /// <summary>
         /// Populates controllers collection and initializes held durations.
         /// </summary>
